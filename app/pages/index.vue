@@ -1,9 +1,7 @@
 <template>
   <div>
     <!-- Hero / Slider -->
-    <section id="inicio" class="h-screen bg-[var(--bg-base)] flex items-center justify-center">
-      <h1 class="text-4xl font-bold text-[var(--text-primary)]">Hero Slider</h1>
-    </section>
+    <HeroSlider />
 
     <!-- Sobre -->
     <section id="sobre" class="min-h-screen bg-[var(--bg-page)] flex items-center justify-center">
