@@ -1,7 +1,28 @@
 <template>
-  <div class="flex items-center justify-center min-h-screen">
-    <h1 class="text-3xl font-bold text-[var(--text-dark)]">
-      Bras System — Landing Page
-    </h1>
+  <div>
+    <!-- Hero / Slider -->
+    <section id="inicio" class="h-screen bg-[var(--bg-base)] flex items-center justify-center">
+      <h1 class="text-4xl font-bold text-[var(--text-primary)]">Hero Slider</h1>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="min-h-screen bg-[var(--bg-page)] flex items-center justify-center">
+      <h2 class="text-3xl font-bold text-[var(--text-dark)]">Sobre</h2>
+    </section>
+
+    <!-- Planos -->
+    <section id="planos" class="min-h-screen bg-[var(--bg-base)] flex items-center justify-center">
+      <h2 class="text-3xl font-bold text-[var(--text-primary)]">Planos</h2>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="min-h-screen bg-[var(--bg-page)] flex items-center justify-center">
+      <h2 class="text-3xl font-bold text-[var(--text-dark)]">FAQ</h2>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="min-h-screen bg-[var(--bg-base)] flex items-center justify-center">
+      <h2 class="text-3xl font-bold text-[var(--text-primary)]">Contato</h2>
+    </section>
   </div>
 </template>

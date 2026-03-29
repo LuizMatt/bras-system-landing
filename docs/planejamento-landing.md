@@ -168,14 +168,14 @@ Criar token `uploadsBase` no runtimeConfig: `http://localhost:3000` (sem `/api`)
 
 ## Fases de Desenvolvimento
 
-### Fase 1 — Setup Inicial ⬅️ ATUAL
+### Fase 1 — Setup Inicial ✅
 - [x] Criar projeto Nuxt 4
-- [ ] Instalar dependências (tailwindcss module, mdi, vue-sonner)
-- [ ] Configurar nuxt.config.ts, tailwind.config.ts, main.css
-- [ ] Criar estrutura de pastas (atoms, molecules, organisms, composables, layouts, pages)
-- [ ] Criar app.vue, default.vue layout, index.vue placeholder
+- [x] Instalar dependências (tailwindcss module, mdi, vue-sonner, @types/node)
+- [x] Configurar nuxt.config.ts, tailwind.config.ts, main.css
+- [x] Criar estrutura de pastas (atoms, molecules, organisms, composables, layouts, pages)
+- [x] Criar app.vue, default.vue layout, index.vue placeholder
 
-### Fase 2 — Atoms & Molecules Base
+### Fase 2 — Atoms & Molecules Base ⬅️ ATUAL
 - [ ] AppIcon, AppButton, SectionTitle, SliderDot, PriceTag
 - [ ] NavLink, FeatureCard, PlanCard, FaqItem, SliderSlide
 
