@@ -10,7 +10,7 @@ const links = [
 const mobileOpen = ref(false)
 const scrolled = ref(false)
 
-const whatsappLink = 'https://wa.me/5583993409288?text=' + encodeURIComponent('Olá! Gostaria de mais informações sobre os serviços da Bras System.')
+const { defaultLink: whatsappLink } = useWhatsApp()
 
 function handleScroll() {
   const hero = document.querySelector('#inicio')
@@ -49,7 +49,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
             v-bind="link"
             @click.prevent="scrollTo(link.to)"
           />
-          <AppButton variant="outline" :href="whatsappLink">
+          <AppButton variant="primary" :href="whatsappLink">
             <AppIcon icon="mdi-whatsapp" />
             Fale Conosco
           </AppButton>
