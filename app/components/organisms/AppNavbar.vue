@@ -8,33 +8,18 @@ const links = [
 ]
 
 const mobileOpen = ref(false)
-const scrolled = ref(false)
 
 const { defaultLink: whatsappLink } = useWhatsApp()
-
-function handleScroll() {
-  const hero = document.querySelector('#inicio')
-  const heroHeight = hero?.clientHeight ?? 0
-  scrolled.value = window.scrollY > heroHeight - 64
-}
 
 function scrollTo(hash: string) {
   mobileOpen.value = false
   document.querySelector(hash)?.scrollIntoView({ behavior: 'smooth' })
 }
-
-onMounted(() => {
-  handleScroll()
-  window.addEventListener('scroll', handleScroll)
-})
-
-onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 </script>
 
 <template>
   <nav
-    class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
-    :class="scrolled ? 'bg-[var(--bg-base)] shadow-lg' : 'bg-transparent'"
+    class="fixed top-0 left-0 right-0 z-50 bg-[var(--bg-base)] shadow-lg"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
