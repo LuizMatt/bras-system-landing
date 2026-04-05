@@ -1,8 +1,10 @@
 export interface Package {
   id: string
   name: string
+  subtitle: string
   price: number
-  description: string
+  features: string[]
+  is_featured: boolean
   is_active: boolean
   display_order: number
 }
