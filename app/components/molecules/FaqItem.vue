@@ -20,10 +20,14 @@ const open = ref(false)
       />
     </button>
     <div
-      v-show="open"
-      class="px-6 pb-4 text-sm text-[var(--text-subtle)] leading-relaxed"
+      class="grid transition-all duration-300 ease-in-out"
+      :class="open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
     >
-      {{ answer }}
+      <div class="overflow-hidden">
+        <div class="px-6 pb-4 text-sm text-[var(--text-subtle)] leading-relaxed">
+          {{ answer }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
