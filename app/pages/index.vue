@@ -1,8 +1,8 @@
 <template>
   <div>
     <HeroSlider />
-    <AboutSection />
     <PricingSection />
+    <AboutSection />
     <FaqSection />
     <ContactSection />
     <AppFooter />

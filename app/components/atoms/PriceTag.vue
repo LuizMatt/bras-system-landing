@@ -10,8 +10,8 @@ const formatted = computed(() =>
 
 <template>
   <div class="flex items-baseline gap-1">
-    <span class="text-base font-bold text-[var(--text-primary)]">R$</span>
-    <span class="text-4xl font-bold text-[var(--text-primary)]">{{ formatted }}</span>
-    <span class="text-sm font-medium text-[var(--text-muted)]">/mês</span>
+    <span class="text-base font-bold text-[var(--text-dark)]">R$</span>
+    <span class="text-4xl font-bold text-[var(--text-dark)]">{{ formatted }}</span>
+    <span class="text-sm font-medium text-[var(--text-subtle)]">/mês</span>
   </div>
 </template>

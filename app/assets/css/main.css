@@ -4,9 +4,9 @@
 
 :root {
   /* Background */
-  --bg-base:      #0a1628;
+  --bg-base:      #0D1B2E;
   --bg-surface:   #1a3a5c;
-  --bg-page:      #eef2f6;
+  --bg-page:      #EAF0F6;
   --bg-card:      #ffffff;
   --bg-input:     #ffffff;
   --bg-hover:     #f1f5f9;
@@ -18,13 +18,13 @@
   --text-subtle:  #94a3b8;
 
   /* Accent */
-  --accent:       #4db8d4;
+  --accent:       #1A7DC4;
   --danger:       #ef4444;
 
   /* Button */
-  --btn-bg:       #4db8d4;
-  --btn-text:     #0a1628;
-  --btn-border:   #4db8d4;
+  --btn-bg:       #1A7DC4;
+  --btn-text:     #ffffff;
+  --btn-border:   #1A7DC4;
 
   /* Footer */
   --bg-footer:    #060f1e;

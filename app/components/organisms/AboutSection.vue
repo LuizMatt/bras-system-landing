@@ -24,11 +24,12 @@ const features = [
 </script>
 
 <template>
-  <section id="sobre" class="py-20 bg-[var(--bg-page)]">
+  <section id="sobre" class="py-20 bg-[var(--bg-base)]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <SectionTitle
         title="Por que escolher a Brasystem?"
         subtitle="Tecnologia e agilidade para proteger o que é seu."
+        light
       />
       <HorizontalScroller>
         <FeatureCard v-for="f in features" :key="f.title" v-bind="f" class="w-64 shrink-0 snap-start" />
