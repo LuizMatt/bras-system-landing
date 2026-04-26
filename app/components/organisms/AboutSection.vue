@@ -27,11 +27,11 @@ const features = [
   <section id="sobre" class="py-20 bg-[var(--bg-page)]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <SectionTitle
-        title="Por que escolher a Bras System?"
+        title="Por que escolher a Brasystem?"
         subtitle="Tecnologia e agilidade para proteger o que é seu."
       />
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <FeatureCard v-for="f in features" :key="f.title" v-bind="f" />
+      <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-4">
+        <FeatureCard v-for="f in features" :key="f.title" v-bind="f" class="min-w-[75vw] snap-start sm:min-w-0" />
       </div>
     </div>
   </section>

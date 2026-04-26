@@ -25,7 +25,7 @@ function scrollTo(hash: string) {
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-10">
         <!-- Marca -->
         <div>
-          <h4 class="text-[var(--text-primary)] font-bold mb-3">Bras System</h4>
+          <h4 class="text-[var(--text-primary)] font-bold mb-3">Brasystem</h4>
           <p class="text-sm text-[var(--text-muted)] leading-relaxed">
             Rastreamento e recuperação veicular com tecnologia e agilidade desde 2025.
           </p>
@@ -87,7 +87,7 @@ function scrollTo(hash: string) {
       <!-- Divider + Copyright -->
       <div class="border-t border-[var(--border)] pt-6 text-center">
         <p class="text-xs text-[var(--text-muted)]">
-          &copy; {{ year }} Bras System. Todos os direitos reservados
+          &copy; {{ year }} Brasystem. Todos os direitos reservados
         </p>
       </div>
     </div>

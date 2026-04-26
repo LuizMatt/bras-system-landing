@@ -24,7 +24,7 @@ function scrollTo(hash: string) {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <a href="#inicio" @click.prevent="scrollTo('#inicio')">
-          <img src="~/assets/images/bs-logo.png" alt="Bras System" class="h-10" />
+          <img src="~/assets/images/bs-logo.png" alt="Brasystem" class="h-10" />
         </a>
 
         <div class="hidden md:flex items-center gap-8">

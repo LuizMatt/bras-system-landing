@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   app: {
     head: {
-      title: 'Bras System',
+      title: 'Brasystem',
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       ],
