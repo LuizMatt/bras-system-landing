@@ -30,8 +30,12 @@ const features = [
         title="Por que escolher a Brasystem?"
         subtitle="Tecnologia e agilidade para proteger o que é seu."
       />
-      <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-4">
-        <FeatureCard v-for="f in features" :key="f.title" v-bind="f" class="min-w-[75vw] snap-start sm:min-w-0" />
+      <HorizontalScroller>
+        <FeatureCard v-for="f in features" :key="f.title" v-bind="f" class="w-64 shrink-0 snap-start" />
+      </HorizontalScroller>
+
+      <div class="hidden sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <FeatureCard v-for="f in features" :key="f.title" v-bind="f" />
       </div>
     </div>
   </section>
