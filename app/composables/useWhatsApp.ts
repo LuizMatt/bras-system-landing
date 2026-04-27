@@ -1,4 +1,4 @@
-const PHONE = '5583993409288'
+const PHONE = '5583998267174'
 const BASE = `https://wa.me/${PHONE}?text=`
 
 export function useWhatsApp() {

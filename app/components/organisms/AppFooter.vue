@@ -9,8 +9,8 @@ const links = [
 ]
 
 const socials = [
-  { label: 'Instagram', icon: 'mdi-instagram', href: '#' },
-  { label: 'Contato WhatsApp', icon: 'mdi-whatsapp', href: 'https://wa.me/5583993409288' },
+  { label: 'Instagram', icon: 'mdi-instagram', href: 'https://www.instagram.com/brasystemlocalizacao/' },
+  { label: 'Contato WhatsApp', icon: 'mdi-whatsapp', href: 'https://wa.me/5583998267174' },
 ]
 
 function scrollTo(hash: string) {
@@ -69,8 +69,12 @@ function scrollTo(hash: string) {
           <h4 class="text-[var(--text-primary)] font-bold mb-3">Informações para contato</h4>
           <ul class="flex flex-col gap-3 text-sm text-[var(--text-muted)]">
             <li class="flex items-center gap-2">
+              <AppIcon icon="mdi-whatsapp" class="text-[var(--accent)]" />
+              (83) 9826-7174
+            </li>
+            <li class="flex items-center gap-2">
               <AppIcon icon="mdi-phone" class="text-[var(--accent)]" />
-              (83) 99340-9288
+              0800 712 1000
             </li>
             <li class="flex items-center gap-2">
               <AppIcon icon="mdi-email-outline" class="text-[var(--accent)]" />

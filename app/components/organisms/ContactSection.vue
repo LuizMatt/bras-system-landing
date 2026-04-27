@@ -16,8 +16,12 @@ const { defaultLink } = useWhatsApp()
       </AppButton>
       <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 text-[var(--text-muted)] text-sm">
         <span class="flex items-center gap-2">
+          <AppIcon icon="mdi-whatsapp" />
+          (83) 9826-7174
+        </span>
+        <span class="flex items-center gap-2">
           <AppIcon icon="mdi-phone" />
-          (83) 99340-9288
+          0800 712 1000
         </span>
         <span class="flex items-center gap-2">
           <AppIcon icon="mdi-email-outline" />
