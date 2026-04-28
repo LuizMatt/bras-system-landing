@@ -10,7 +10,7 @@ const { planLink } = useWhatsApp()
 
 <template>
   <div
-    class="relative rounded-xl p-8 flex flex-col transition-all duration-300"
+    class="relative rounded-xl p-8 flex flex-col transition-all duration-300 w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.34rem)]"
     :class="plan.is_featured
       ? 'border-[1.5px] border-[var(--accent)] bg-[var(--bg-card)] shadow-[0_0_20px_rgba(26,125,196,0.15)]'
       : 'border border-[var(--border-light)] bg-[var(--bg-card)]'"
