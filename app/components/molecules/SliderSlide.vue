@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <picture class="absolute inset-0">
-    <source v-if="mobileSrc" :srcset="mobileSrc" media="(max-width: 767px)" />
+    <source v-if="mobileSrc" :srcset="mobileSrc" media="(max-width: 1024px)" />
     <img
       :src="src"
       :alt="alt"
