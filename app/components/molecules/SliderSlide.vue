@@ -3,7 +3,6 @@ defineProps<{
   src: string
   mobileSrc?: string | null
   alt: string
-  position?: string
 }>()
 </script>
 
@@ -14,7 +13,6 @@ defineProps<{
       :src="src"
       :alt="alt"
       class="w-full h-full object-cover"
-      :style="{ objectPosition: position ?? 'center' }"
     />
   </picture>
 </template>

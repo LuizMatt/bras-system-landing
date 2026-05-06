@@ -29,7 +29,7 @@ onUnmounted(() => stopAutoplay())
 </script>
 
 <template>
-  <section id="inicio" class="relative w-full bg-[var(--bg-base)] overflow-hidden" style="aspect-ratio: 16/6">
+  <section id="inicio" class="relative h-[60vh] md:h-[80vh] bg-[var(--bg-base)] overflow-hidden">
     <template v-if="!loading && images.length">
       <div
         v-for="(img, i) in images"
