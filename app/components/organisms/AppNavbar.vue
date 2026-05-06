@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const links = [
   { to: '#inicio', label: 'Início' },
-  { to: '#sobre', label: 'Sobre' },
   { to: '#planos', label: 'Planos' },
+  { to: '#sobre', label: 'Sobre' },
   { to: '#faq', label: 'FAQ' },
   { to: '#contato', label: 'Contato' },
 ]

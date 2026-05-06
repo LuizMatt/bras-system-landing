@@ -1,5 +1,5 @@
 const IOS_URL = 'https://apps.apple.com/br/app/ssx-mobile/id1556904614'
-const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.systemsatx.ssabordo'
+const ANDROID_URL = 'https://play.google.com/store/apps/details?id=br.com.systemsat.ssxmobile'
 
 export function useAppDownload() {
   const appLink = computed(() => {
