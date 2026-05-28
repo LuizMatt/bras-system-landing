@@ -3,9 +3,13 @@ const props = defineProps<{
   price: number
 }>()
 
-const formatted = computed(() =>
-  props.price.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 })
-)
+const formatted = computed(() => {
+  const hasCents = props.price % 1 !== 0
+  return props.price.toLocaleString('pt-BR', {
+    minimumFractionDigits: hasCents ? 2 : 0,
+    maximumFractionDigits: 2
+  })
+})
 </script>
 
 <template>
