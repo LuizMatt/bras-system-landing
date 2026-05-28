@@ -17,7 +17,7 @@ const { defaultLink } = useWhatsApp()
       <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 text-[var(--text-muted)] text-sm">
         <span class="flex items-center gap-2">
           <AppIcon icon="mdi-whatsapp" />
-          (83) 9826-7174
+          (83) 99826-7174
         </span>
         <span class="flex items-center gap-2">
           <AppIcon icon="mdi-phone" />
@@ -25,7 +25,7 @@ const { defaultLink } = useWhatsApp()
         </span>
         <span class="flex items-center gap-2">
           <AppIcon icon="mdi-email-outline" />
-          contato@brassystem.com.br
+          brasystem.veicular@gmail.com
         </span>
       </div>
     </div>

@@ -70,7 +70,7 @@ function scrollTo(hash: string) {
           <ul class="flex flex-col gap-3 text-sm text-[var(--text-muted)]">
             <li class="flex items-center gap-2">
               <AppIcon icon="mdi-whatsapp" class="text-[var(--accent)]" />
-              (83) 9826-7174
+              (83) 99826-7174
             </li>
             <li class="flex items-center gap-2">
               <AppIcon icon="mdi-phone" class="text-[var(--accent)]" />
@@ -78,7 +78,7 @@ function scrollTo(hash: string) {
             </li>
             <li class="flex items-center gap-2">
               <AppIcon icon="mdi-email-outline" class="text-[var(--accent)]" />
-              contato@brassystem.com.br
+              brasystem.veicular@gmail.com
             </li>
             <li class="flex items-center gap-2">
               <AppIcon icon="mdi-map-marker-outline" class="text-[var(--accent)]" />
