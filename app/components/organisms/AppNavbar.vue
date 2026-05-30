@@ -33,10 +33,10 @@ onMounted(() => {
 
 <template>
   <nav
-    class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b transition-all duration-300"
+    class="fixed top-0 left-0 right-0 z-50 bg-[#0d1b2e] border-b transition-all duration-300"
     :class="scrolled 
-      ? 'bg-[#0d1b2e]/95 border-[var(--border)] shadow-[0_4px_24px_rgba(0,0,0,0.25),0_1px_0_rgba(26,125,196,0.15)]' 
-      : 'bg-[#0d1b2e]/80 border-transparent'"
+      ? 'border-[var(--border)] shadow-[0_4px_24px_rgba(0,0,0,0.25),0_1px_0_rgba(26,125,196,0.15)]' 
+      : 'border-transparent'"
   >
     <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12">
       <div class="flex items-center justify-between h-16">
@@ -95,7 +95,7 @@ onMounted(() => {
     >
       <div
         v-if="mobileOpen"
-        class="md:hidden bg-[var(--bg-base)]/95 backdrop-blur-md border-t border-[var(--border)]"
+        class="md:hidden bg-[var(--bg-base)] border-t border-[var(--border)]"
       >
         <div class="flex flex-col gap-4 px-4 py-6">
           <NavLink
